@@ -1,0 +1,10 @@
+name: my_env
+channels:
+  - conda-forge
+dependencies:
+  - pip==24.2
+  - python=3.11.9
+  - pandas==2.2.2
+  - pip:
+    - flytekit==1.13.2
+    - kubernetes==30.1.0
